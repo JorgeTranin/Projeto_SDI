@@ -57,14 +57,23 @@
                             <input class="form-control text-left border" type="text"
                                 placeholder="Não da para editar, Irá ser preenchido pelo banco de dados" readonly>
                         </div>
-                        <div class="col-4 mt-4 text-right">
-                            <label for="Nome">Status do chamado</label>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-4 mt-1  text-right">
+                            <label for="Nome">Prioridade</label>
+                        </div>
+                        <div class=" col-4 input-group input-group-sm " id="selectAjuste">
+                            <select class="form-control text-left border">
+                                <option>Aberto</option>
+                                <option>Pendente</option>
+                                <option>Aguardando cliente</option>
+                                <option>Resolvido</option>
+                                <option>fechado</option>
+                            </select>
                         </div>
 
-                        <div class=" col-7 input-group input-group-sm mt-3 ">
-                            <input class="form-control text-left border bg-white" type="text" placeholder="Editável">
-                        </div>
-
+                    </div>
+                        <div class="row ">
                         <div class="col-4 mt-4 text-right">
                             <label for="Nome">Chamado atribuido à</label>
                         </div>
@@ -72,7 +81,7 @@
                             <input class="form-control text-left border bg-white" type="text" placeholder="Editável">
                         </div>
 
-                    </div>
+                        </div>
 
                     <div class="row mt-4">
                         <div class="col-4 mt-1  text-right">
