@@ -1,44 +1,6 @@
-<!doctype html>
-<html lang="pt-br">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Criação de chamado</title>
-
-
-</head>
-
-<body>
-    <div class="container-fluid">
-
-        <div class="row">
-
-            <div class="col-6 bg text-left">
-                <img src="./img/logo_pequena.PNG" alt="" class="rounded-circle " id="perfil-foto">
-            </div>
-            <div class="col-2 bg text-center p-4">
-
-            </div>
-
-            <div class="col-3 bg text-left p-4">
-                <div class="btn-group  text-right" role="group">
-                    <button type="button" class="btn btn-primary mt-4">Visualizar chamados</button>
-                </div>
-            </div>
-            <div class="col-1 bg text-right p-4">
-                <div class="btn-group  mr-4" role="group">
-                    <button type="button" class="btn btn-danger mt-4 p-1.5">Sair</button>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
+<?php
+require_once "cabecalho.php";
+?>
     <section class="container">
         <form action="" class="">
             <div class="row">
