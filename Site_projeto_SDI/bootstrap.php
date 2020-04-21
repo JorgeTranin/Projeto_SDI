@@ -2,4 +2,4 @@
 
 
 
-header('Location: Site_projeto_SDI/index.php');
+header('Location: index.php');

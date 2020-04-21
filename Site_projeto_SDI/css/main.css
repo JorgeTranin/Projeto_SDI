@@ -343,4 +343,14 @@ img#perfil-foto{
   #icon {
     width:60%;
   }
-  
+
+  .bg {
+    background-color: #2f5090 !important;
+  }
+
+  @media (max-width: 700px) {
+    .tabela {
+      overflow-x: auto;
+      display: block;
+    }
+  }

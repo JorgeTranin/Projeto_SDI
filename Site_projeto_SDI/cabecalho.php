@@ -25,30 +25,26 @@ if (!isset($_SESSION['nome'])){
 </head>
 
 <body>
-<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg">
+    <img src="./img/logo_pequena.PNG" alt="" class="rounded-circle img-fluid" id="perfil-foto">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="row">
-
-    <div class="col-3 bg text-left">
-      <img src="./img/logo_pequena.PNG" alt="" class="rounded-circle " id="perfil-foto">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="lista_chamado.php">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="abrirChamado.php" class="nav-link">Novo Chamado</a>
+            </li>
+            <li class="nav-item">
+                <a href="lista_chamado.php" class="nav-link">Visualizar chamados</a>
+            </li>
+            <li class="nav-item">
+                <a href="logout.php" class="nav-link">Sair</a>
+            </li>
+        </ul>
     </div>
-    <div class="col-3 bg text-center p-3">
-      <div class="btn-group  text-right" role="group">
-        <a href="abrirChamado.php" class="btn btn-primary mt-4">Novo Chamado</a>
-      </div>
-    </div>
-
-    <div class="col-3 bg text-left p-3">
-      <div class="btn-group  text-right" role="group">
-        <a href="lista_chamado.php" class="btn btn-success mt-4">Visualizar chamados</a>
-      </div>
-    </div>
-    <div class="col-3 bg text-right p-3">
-      <div class="btn-group  mr-4" role="group">
-        <a href="logout.php" class="btn btn-danger mt-4 p-1.5">Sair</a>
-      </div>
-    </div>
-
-
-  </div>
-</div>
+</nav>
